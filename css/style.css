@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+}
+
+#startBtn, #submitBtn {
+    height: 50px;
+    font-size: 18px;
+}
+
+#guessInput {
+    height: 50px;
+    font-size: 16px;
+}
