@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Juego de adivinación</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Numeros Magicos</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-        <h1 class="text-center mt-5">Juego de adivinación</h1>
-        <div class="row justify-content-center mt-5">
-            <div class="col-md-6">
-                <button id="startBtn" class="btn btn-primary btn-block">Comenzar el juego</button>
-            </div>
+      <h1 class="text-center mt-5">Adivina el numero</h1>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <button id="startBtn" class="btn btn-primary btn-block">
+            Piensa un numero
+          </button>
         </div>
-        <div class="row justify-content-center mt-5">
-            <div class="col-md-6">
-                <input type="number" id="guessInput" class="form-control" placeholder="Ingresa tu número">
-            </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <input
+            type="number"
+            id="guessInput"
+            class="form-control"
+            placeholder="Ingresa tu número"
+          />
         </div>
-        <div class="row justify-content-center mt-2">
-            <div class="col-md-6">
-                <button id="submitBtn" class="btn btn-success btn-block">Enviar</button>
-            </div>
+      </div>
+      <div class="row justify-content-center mt-2">
+        <div class="col-md-6">
+          <button id="submitBtn" class="btn btn-success btn-block">
+            Enviar
+          </button>
         </div>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="juego.js"></script>
-</body>
+  </body>
 </html>

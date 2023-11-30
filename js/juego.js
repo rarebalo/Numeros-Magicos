@@ -1,0 +1,1 @@
+const btnVerMas = document.getElementById("startBtn");
