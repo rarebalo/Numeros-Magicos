@@ -17,13 +17,16 @@
   </head>
   <body>
     <header></header>
-    <main>
-      <div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-primary" type="button">Button</button>
-        <button class="btn btn-primary" type="button">Button</button>
-      </div>
+    <main class=" container-fluid">
+      <h1>Adivina el numero en el que estoy pensando...</h1>
+      <div class="container">
+        <label for="textoPrediccion" class="form-label">Ingresa tu prediccion:</label>
+        <input type="number" class="form" id="textoPrediccion" placeholder="un numero...">
+        <button type="button" class="btn btn-warning" onclick="tomarTexto()">Comprobar</button>
+      </div>     
     </main>
     <footer></footer>
   </body>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/juego.js"></script>
 </html>
